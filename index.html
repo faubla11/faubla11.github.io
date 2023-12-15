@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>Mi Perfil</title>
+    <link href="estilos.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald&display=swap"
+      rel="stylesheet"
+    />
+  </head> 
+  <body>
+    <header>
+        <img class="imagen-header"  src="imagenes/bm.jpg" alt="Foto de Perfil">
+        <!--Menu-->
+        <h1 class="header">Bryan José Macias Faubla</h1>
+        <h2 class="subtitulo">Cuarto "C" </h2>
+        <nav>
+          <ul class="navegacion">
+              <li> <a href="#sobremi"> Acerca de</a></li>
+              <li> <a href="#proyecto"> Mis Proyectos</a></li>
+              <li> <a href="#pie"> Contacto</a></li>
+          </ul>
+        </nav>
+    </header>
+    
+    <main>
+      <section id="sobremi">
+        <h2 class="header"> Acerca de</h2>
+        <p class="intro">
+          Hola que tal! Me presento soy Bryan José 👋 nací en Calceta, Manabí Ecuador, soy un estudiante del cuarto 
+          semestre la carrera de Tecnologias de la Informacion en la Universidad Laica Eloy alfaro de Manabi, 
+          mi pasion es jugar al futbol y jugar al indor, me gustan disfrutar de los atardeceres y soy un fan del genero de superheroes, uno de  mis sueño es 
+          convertirme en un excelente profesional y poder resolver cualquier problema en el campo laboral con los conocimientos obtenidos.
+              
+          <ul class="social-media">
+            <li>
+              <a href="https://twitter.com" target="_blank">
+                <img class="imagen-social" src="imagenes/twitter.png"/>
+                <p class="social-link-text">Twitter</p>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com" target="_blank">
+                <img class="imagen-social" src="imagenes/github-logo.png"/>
+                <p class="social-link-text">GitHub</p>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com" target="_blank">
+                <img class="imagen-social" src="imagenes/linkedin.png"/>
+                <p class="social-link-text">linkedIn</p>
+              </a>
+            </li>
+          </ul>
+        </p>
+      </section>
+
+      <section id="proyecto">
+        <h2 class="header"> Mis Proyectos</h2>
+        <ul class="carousel">
+          <button class="arrow arrow-left" aria-label="Flecha izquierda"></button>
+          <div class="window">
+            <div class="project-container">
+              <li class="project"><button><img src="imagenes/project1.png"  alt="Mi proyecto 1"></button></li>
+              <li class="project"><button><img src="imagenes/project2.png" alt="Mi proyecto 2"></button></li>
+              <li class="project"><button><img src="imagenes/project3.png" alt="Mi proyecto 3"></button></li>
+              <li class="project" aria-hidden="true"><button><img src="imagenes/project4.png" tabindex="-1" alt="Mi proyecto 4"></button></li>
+              <li class="project" aria-hidden="true"><button><img src="imagenes/project5.png" tabindex="-1" alt="Mi proyecto 5"></button></li>
+            </div>
+          </div>
+          <button class="arrow arrow-right" aria-label="Flecha Derecha"></button>
+        </ul>
+      </section>
+        
+    </main>
+    
+ 
+    <footer id="pie" class="contact-section">
+      <h2 class="header">Contacto</h2>
+      <form class="form-container">
+        Nombre<input type="text" arialabel="nombre"/> <br />
+        Correo<input type="text" arialabel="correo" /> <br />
+        <div class="message-input">Mensaje<input type="text" /> <br /></div>
+        <div class="send-button">Enviar</div>
+      </form>
+    </footer>
+
+    <div class="notification">El formulario fue enviado sin errores</div>
+    <div class="modal-container">
+      <div class="modal">
+        Ejemplo de un proyecto mio
+        <div class="modal-project-image"></div>
+      </div>
+    </div>
+
+    <script src="index.js" type="text/javascript"></script>
+  </body>
+</html>
