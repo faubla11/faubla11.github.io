@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hoja de Vida</title>
+  <style>
+    /* Estilos CSS */
+ 
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #c7ecee; /* Cambia el color de fondo a celeste */
+    }
+
+    header {
+      text-align: center;/*Centra el texto dentro del elemento <header>*/
+      margin-bottom: 20px;/*Agrega un margen en la parte inferior del elemento <header>*/
+      
+    }
+    img {
+      height: 150px;  /* Establece la altura de los elementos con esta clase en 150px.*/
+       width: 150px;  /* Establece el ancho de los elementos con esta clase en 150px.*/
+    }
+    
+
+    h1, h2 {            /*Selecciona todos los elementos <h1>y <h2>aplica el siguiente estilo:*/
+      color: #181818; /*Establece el color del texto en un tono de gris oscuro (#181818) para los elementos <h1>y <h2>.*/
+    }
+
+    div {                   /* Selecciona todos los elementos <div>y aplica el siguiente estilo:*/
+      margin-bottom: 20px;  /* Agrega un margen en la parte inferior de todos los elementos */
+    } 
+
+    ul {                   /* Se quita la lista de viñetas y se elimina el espacio de
+                              relleno predeterminado de las listas desordenadas ( <ul>).*/
+      list-style: none;    
+      padding: 0;
+    }
+
+    li {                   /*Se agrega un margen inferior de 10px a todos los elementos <li>.*/
+      margin-bottom: 10px;
+    }
+
+    table {                     /*Se establece que la tabla ocupa el 100% del ancho disponible 
+                                  y se colapsan los bordes de las celdas de la tabla.*/
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {                      /* Se establece un borde de 1px sólido de color #474747 (un tono de gris) y un relleno 
+                                   interno de 8px para las celdas de encabezado ( <th>) y las celdas de datos ( <td>).*/
+      border: 1px solid #474747;
+      padding: 8px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hoja de vida</h1>
+    <hr>
+    <img class="imagen-header"  src="imagenes/bm.jpg" alt="Foto de Perfil">
+    <p></p>
+  </header>
+
+  <div id="datos-personales">
+    <h2>Datos Personales</h2>
+    <ul>
+      <li>Nombre: Bryan José Macias Faubla</li>
+      <li>Edad: 24</li>
+      <li>Fecha de nacimiento: 13-07-1999</li>
+      <li>Lugar de nacimiento: Manabí-Bolivar-Calceta</li>
+      <li>Lugar de residencia: Manta</li>
+      <li>Dirección: Divino Niño</li> 
+      <li>Teléfono: +593 980518380</li>
+      <li>Correo electrónico: bryanmaciasfaubla11@gmail.com</li>
+      
+      </ul>
+  </div>
+
+  <div id="estudios">
+    <h2>Estudios Realizados</h2>
+    <ul>
+      <li>
+        <strong>Institucion educativa</strong> - Pedro Balda Cucalon (Bachillerato)
+        <ul>
+          <li><strong>Actualmente:</strong> Universidad Laica Eloy Alfaro de Manabí - Carrera Ingenieria en TI (5to semestre)</li>
+          </ul>
+      </li>
+      </ul>
+  </div>
+
+  <div id="experiencia-laboral">
+    <h2>Experiencia Laboral</h2>
+    <ul>
+      <li>
+        <strong>Cargo</strong> - Cocina en reposteria negocio propio
+        <ul>
+          <li>Realizacion y ventas de dulces y postres</li>
+          </ul>
+      </li>
+      </ul>
+  </div>
+
+  <div id="capacitaciones">
+    <h2>Capacitaciones</h2>
+    <ul>
+      <li>Capacitaciones en el DANU - Institución (Universidad Laica Eloy Alfaro de Manabí)</li>
+      </ul>
+  </div>
+
+  <div id="referencias">
+    <h2>Referencias Personales</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Cargo/Profesión</th>
+          <th>Teléfono</th>
+          <th>Correo electrónico</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Anthony Macias</td>
+          <td>Lic. Administrción de empresas</td>
+          <td>+593 988455221</td>
+          <td>anthony@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Fernanda Faubla </td>
+          <td>Ing. Agroindustrias</td>
+          <td>+593 984321875</td>
+          <td>fernanda@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Esther Faubla</td>
+          <td>Ing. Riesgos y desastres</td>
+          <td>+593 984311765</td>
+          <td>esther@gmail.com</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Bryan José Macias Faubla</p>
+  </footer>
+</body>
+</html>
+
